@@ -71,7 +71,8 @@ git pull origin main
 ## 第四步：发送 Gmail 草稿
 
 使用 Gmail MCP 工具创建草稿：
-- 收件人：samzheng321@gmail.com
+- 收件人：2543090507@qq.com
+- 抄送：samzheng321@gmail.com
 - 主题：`A股日报 {日期} | 市场{可入场/现金优先} | {✅候选数}只候选`
 - 正文：上面生成的 HTML 报告
 

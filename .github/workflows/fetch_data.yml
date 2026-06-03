@@ -23,6 +23,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Wait for market data to stabilize
+        run: sleep 300  # 5min after close for East Money servers to stabilize
+
       - name: Fetch price & info data
         run: python scripts/fetch_daily_data.py
 

@@ -137,12 +137,12 @@ def main():
         df = fetch_price(ticker)
         if df is not None:
             df.to_csv(f'data/stocks/{c}_price.csv', index=False)
-        time.sleep(0.8)
+        time.sleep(2.0)
         info = fetch_info(ticker)
         if info:
             with open(f'data/stocks/{c}_info.json', 'w', encoding='utf-8') as f:
                 json.dump(info, f, ensure_ascii=False, indent=2)
-        time.sleep(0.8)
+        time.sleep(2.0)
 
     print('Fetching north flow...')
     nf = fetch_north_flow()
