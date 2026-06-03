@@ -9,10 +9,18 @@
   "pivot_high_60d": 111.82,
   "pct_from_pivot": -15.4,
   "stage2_confirmed": false,
-  "minervini_score": 0,
-  "minervini_criteria": {},
+  "minervini_score": 1,
+  "minervini_criteria": {
+    "c1_price_above_ma150_ma200": false,
+    "c2_ma150_above_ma200": false,
+    "c3_ma200_trending_up": false,
+    "c4_ma50_above_ma150_ma200": false,
+    "c5_price_above_ma50": false,
+    "c6_price_30pct_above_52w_low": false,
+    "c7_price_within_25pct_52w_high": true
+  },
   "rs_3m": null,
-  "fetched_at": "2026-06-03T05:04:40.857332",
+  "fetched_at": "2026-06-03T05:20:31.717015",
   "vol_ratio_5d_vs_50d": 0.83,
   "vol_quality_up_vs_dn": 1.15
 }
