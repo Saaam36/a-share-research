@@ -1,0 +1,47 @@
+name: Fetch A-Share Data
+
+on:
+  schedule:
+    - cron: '30 7 * * 1-5'  # UTC 07:30 = Beijing 15:30 (30min after A-share close)
+  workflow_dispatch:          # allow manual trigger
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch price & info data
+        run: python scripts/fetch_daily_data.py
+
+      - name: Build fundamental snapshots
+        run: python scripts/fundamental_snapshot.py
+
+      - name: Run technical analysis
+        run: python scripts/deep_technical.py
+
+      - name: Assess market state
+        run: python scripts/market_state.py
+
+      - name: Run CANSLIM screener
+        run: python scripts/a_share_screener.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "data: $(date -u '+%Y-%m-%d') A-share close"
+          git push
