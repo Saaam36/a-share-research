@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03T05:19:53.438009",
+  "fetched_at": "2026-06-03T12:43:51.268391",
   "north_error": "module 'akshare' has no attribute 'stock_hsgt_north_net_flow_in_em'",
   "sh_error": "module 'akshare' has no attribute 'stock_hsgt_north_net_flow_in_em'",
   "sz_error": "module 'akshare' has no attribute 'stock_hsgt_north_net_flow_in_em'"
