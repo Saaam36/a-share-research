@@ -55,7 +55,7 @@ def minervini_score(df):
     Check Minervini 7 template criteria.
     Returns (score, detail_dict)
     """
-    if len(df) < 200:
+    if len(df) < 60:
         return 0, {}
 
     close = df['close']

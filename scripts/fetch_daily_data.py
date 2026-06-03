@@ -4,10 +4,23 @@ Fetch daily market data for A-share universe via akshare.
 Saves: data/stocks/{CODE}_price.csv, {CODE}_info.json
        data/market/north_flow.json, sentiment.json
 """
-import os, json
+import os, json, time
 import pandas as pd
 import akshare as ak
 from datetime import datetime, timedelta
+
+
+def with_retry(fn, *args, retries=3, base_delay=3, **kwargs):
+    for attempt in range(retries):
+        try:
+            return fn(*args, **kwargs)
+        except Exception as e:
+            if attempt < retries - 1:
+                wait = base_delay * (2 ** attempt)
+                print(f'    [retry {attempt+1}] {e} — waiting {wait}s')
+                time.sleep(wait)
+            else:
+                raise
 
 UNIVERSE = [
     '688981.SS', '603501.SS', '002371.SZ', '688008.SS', '603986.SS',
@@ -30,13 +43,13 @@ def code(ticker):
     return ticker.split('.')[0]
 
 
-def fetch_price(ticker, days=300):
+def fetch_price(ticker, days=400):
     c = code(ticker)
     end = datetime.today().strftime('%Y%m%d')
     start = (datetime.today() - timedelta(days=days)).strftime('%Y%m%d')
     try:
-        df = ak.stock_zh_a_hist(symbol=c, period='daily',
-                                start_date=start, end_date=end, adjust='qfq')
+        df = with_retry(ak.stock_zh_a_hist, symbol=c, period='daily',
+                        start_date=start, end_date=end, adjust='qfq')
         if df is None or df.empty:
             return None
         df = df.rename(columns=PRICE_RENAME)
@@ -47,12 +60,12 @@ def fetch_price(ticker, days=300):
         return None
 
 
-def fetch_csi300(days=300):
+def fetch_csi300(days=400):
     end = datetime.today().strftime('%Y%m%d')
     start = (datetime.today() - timedelta(days=days)).strftime('%Y%m%d')
     try:
-        df = ak.index_zh_a_hist(symbol='000300', period='daily',
-                                start_date=start, end_date=end)
+        df = with_retry(ak.index_zh_a_hist, symbol='000300', period='daily',
+                        start_date=start, end_date=end)
         if df is None or df.empty:
             return None
         df = df.rename(columns=PRICE_RENAME)
@@ -66,7 +79,7 @@ def fetch_csi300(days=300):
 def fetch_info(ticker):
     c = code(ticker)
     try:
-        df = ak.stock_individual_info_em(symbol=c)
+        df = with_retry(ak.stock_individual_info_em, symbol=c)
         if df is None or df.empty:
             return {}
         return dict(zip(df.iloc[:, 0].astype(str), df.iloc[:, 1].astype(str)))
@@ -124,10 +137,12 @@ def main():
         df = fetch_price(ticker)
         if df is not None:
             df.to_csv(f'data/stocks/{c}_price.csv', index=False)
+        time.sleep(0.8)
         info = fetch_info(ticker)
         if info:
             with open(f'data/stocks/{c}_info.json', 'w', encoding='utf-8') as f:
                 json.dump(info, f, ensure_ascii=False, indent=2)
+        time.sleep(0.8)
 
     print('Fetching north flow...')
     nf = fetch_north_flow()
