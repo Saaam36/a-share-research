@@ -70,7 +70,12 @@ def parse_north_flow():
         for key in target_keys:
             if key in record:
                 try:
-                    val = float(str(record[key]).replace(',', '').replace('亿', ''))
+                    raw = str(record[key]).replace(',', '').replace('亿', '').strip()
+                    if raw.lower() in ('nan', 'none', '', '-', 'n/a'):
+                        break  # this record has no data (overseas IP geo-block)
+                    val = float(raw)
+                    if val != val:  # math.isnan check via IEEE 754
+                        break
                     total_flow += val
                     count += 1
                     break
@@ -78,7 +83,7 @@ def parse_north_flow():
                     pass
 
     if count == 0:
-        return None, 'parse failed'
+        return None, 'no valid data (East Money returns NaN for overseas IPs)'
 
     return round(total_flow, 2), f'{count} records parsed'
 
