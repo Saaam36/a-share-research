@@ -62,10 +62,12 @@ def get_financial(c):
         row = df.iloc[0].to_dict()
 
         mappings = {
-            'revenue_yoy_pct':    ('营业总收入增长', '营收增长', '收入增长率'),
-            'net_profit_yoy_pct': ('净利润增长', '净利润同比', '扣非净利润增长'),
-            'eps':                ('每股收益', '基本每股收益'),
-            'roe_pct':            ('净资产收益率', 'ROE'),
+            'revenue_yoy_pct':    ('营业总收入增长', '营收增长', '收入增长率', '总收入增长率'),
+            'net_profit_yoy_pct': ('净利润增长', '净利润同比', '扣非净利润增长', '归母净利润增长'),
+            'eps':                ('每股收益', '基本每股收益', '摊薄每股收益'),
+            'eps_yoy_pct':        ('每股收益增长', 'EPS增长', '每股盈利增长'),
+            'net_margin_pct':     ('净利率', '净利润率', '销售净利率'),
+            'roe_pct':            ('净资产收益率', 'ROE', '加权净资产收益率'),
             'debt_ratio_pct':     ('资产负债率', '负债率'),
         }
 
@@ -120,11 +122,18 @@ def snapshot(ticker):
     result.update(info_parsed)
     result.update(fin)
 
+    # derived: debt-to-equity from asset-liability ratio
+    # debt_ratio = debt/(debt+equity), so D/E = debt_ratio/(1-debt_ratio)
+    dr = result.get('debt_ratio_pct')
+    if dr is not None and 0 < dr < 100:
+        frac = dr / 100.0
+        result['debt_to_equity'] = round(frac / (1 - frac), 2) if frac < 1 else None
+
     # derived: fundamentals_ok for iron rule 5
     rev_yoy = result.get('revenue_yoy_pct')
     result['fundamentals_ok'] = (
         not is_st and
-        (rev_yoy is None or rev_yoy > -20)  # allow unknown, reject severe decline
+        (rev_yoy is None or rev_yoy > -20)
     )
 
     return result
