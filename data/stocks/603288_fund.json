@@ -1,8 +1,9 @@
 {
   "ticker": "603288.SS",
   "code": "603288",
-  "name": "",
+  "name": "海天味业",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:16.932585",
+  "fetched_at": "2026-06-04T01:53:25.378738",
+  "industry": "",
   "fundamentals_ok": true
 }

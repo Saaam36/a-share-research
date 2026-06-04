@@ -1,8 +1,9 @@
 {
   "ticker": "300014.SZ",
   "code": "300014",
-  "name": "",
+  "name": "亿纬锂能",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:11.808125",
+  "fetched_at": "2026-06-04T01:53:19.773683",
+  "industry": "",
   "fundamentals_ok": true
 }

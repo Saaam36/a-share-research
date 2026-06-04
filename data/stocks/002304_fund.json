@@ -1,8 +1,9 @@
 {
   "ticker": "002304.SZ",
   "code": "002304",
-  "name": "",
+  "name": "洋河股份",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:18.094827",
+  "fetched_at": "2026-06-04T01:53:26.662127",
+  "industry": "",
   "fundamentals_ok": true
 }

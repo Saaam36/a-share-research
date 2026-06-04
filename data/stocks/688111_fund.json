@@ -1,8 +1,9 @@
 {
   "ticker": "688111.SS",
   "code": "688111",
-  "name": "",
+  "name": "金山办公",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:43:59.084516",
+  "fetched_at": "2026-06-04T01:53:05.585856",
+  "industry": "",
   "fundamentals_ok": true
 }

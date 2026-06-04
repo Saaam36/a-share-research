@@ -1,8 +1,9 @@
 {
   "ticker": "002371.SZ",
   "code": "002371",
-  "name": "",
+  "name": "北方华创",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:43:55.935116",
+  "fetched_at": "2026-06-04T01:53:02.088988",
+  "industry": "",
   "fundamentals_ok": true
 }

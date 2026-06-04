@@ -1,8 +1,9 @@
 {
   "ticker": "002594.SZ",
   "code": "002594",
-  "name": "",
+  "name": "比亚迪",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:09.339405",
+  "fetched_at": "2026-06-04T01:53:17.029751",
+  "industry": "",
   "fundamentals_ok": true
 }

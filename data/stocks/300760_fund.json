@@ -1,8 +1,9 @@
 {
   "ticker": "300760.SZ",
   "code": "300760",
-  "name": "",
+  "name": "迈瑞医疗",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:05.045853",
+  "fetched_at": "2026-06-04T01:53:12.040822",
+  "industry": "",
   "fundamentals_ok": true
 }

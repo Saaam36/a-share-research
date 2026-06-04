@@ -1,8 +1,9 @@
 {
   "ticker": "002230.SZ",
   "code": "002230",
-  "name": "",
+  "name": "科大讯飞",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:00.306505",
+  "fetched_at": "2026-06-04T01:53:06.913399",
+  "industry": "",
   "fundamentals_ok": true
 }

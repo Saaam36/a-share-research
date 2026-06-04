@@ -1,8 +1,9 @@
 {
   "ticker": "688008.SS",
   "code": "688008",
-  "name": "",
+  "name": "澜起科技",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:43:57.011200",
+  "fetched_at": "2026-06-04T01:53:03.307761",
+  "industry": "",
   "fundamentals_ok": true
 }

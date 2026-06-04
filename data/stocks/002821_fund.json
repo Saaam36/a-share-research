@@ -1,8 +1,9 @@
 {
   "ticker": "002821.SZ",
   "code": "002821",
-  "name": "",
+  "name": "凯莱英",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:06.136913",
+  "fetched_at": "2026-06-04T01:53:13.335261",
+  "industry": "",
   "fundamentals_ok": true
 }

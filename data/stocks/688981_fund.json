@@ -1,8 +1,9 @@
 {
   "ticker": "688981.SS",
   "code": "688981",
-  "name": "",
+  "name": "中芯国际",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:43:53.623809",
+  "fetched_at": "2026-06-04T01:52:57.321908",
+  "industry": "",
   "fundamentals_ok": true
 }

@@ -1,8 +1,9 @@
 {
   "ticker": "300347.SZ",
   "code": "300347",
-  "name": "",
+  "name": "泰格医药",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:07.234940",
+  "fetched_at": "2026-06-04T01:53:14.691246",
+  "industry": "",
   "fundamentals_ok": true
 }

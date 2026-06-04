@@ -1,13 +1,13 @@
 {
   "ticker": "600519.SS",
   "code": "600519",
-  "close": 1277.68,
+  "close": 1281.91,
   "high_52w": 1555.0,
   "low_52w": 1273.38,
-  "pct_from_52w_high": -17.8,
-  "pct_from_52w_low": 0.3,
+  "pct_from_52w_high": -17.6,
+  "pct_from_52w_low": 0.7,
   "pivot_high_60d": 1498.07,
-  "pct_from_pivot": -14.7,
+  "pct_from_pivot": -14.4,
   "stage2_confirmed": false,
   "minervini_score": 1,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": true
   },
-  "rs_3m": null,
-  "fetched_at": "2026-06-03T12:44:22.070972",
-  "vol_ratio_5d_vs_50d": 1.16,
-  "vol_quality_up_vs_dn": 1.86
+  "rs_3m": -15.43,
+  "fetched_at": "2026-06-04T01:53:31.396243",
+  "vol_ratio_5d_vs_50d": 1.22,
+  "vol_quality_up_vs_dn": 1.77
 }

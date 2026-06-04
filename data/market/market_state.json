@@ -1,12 +1,20 @@
 {
-  "date": "2026-06-03",
-  "market_status": "CASH_PRIORITY",
-  "csi300_stage2": false,
-  "csi300_detail": {},
-  "north_flow_5d_bn": null,
-  "north_flow_signal": null,
-  "north_note": "no data",
+  "date": "2026-06-04",
+  "market_status": "NEW_ENTRY_ALLOWED",
+  "csi300_stage2": true,
+  "csi300_detail": {
+    "price": 4938.81,
+    "ma50": 4737.97,
+    "ma200": 4615.15,
+    "ma200_slope": 4.0489,
+    "c1_price_above_mas": true,
+    "c2_ma50_above_ma200": true,
+    "c3_ma200_up": true
+  },
+  "north_flow_5d_bn": NaN,
+  "north_flow_signal": "strong_outflow",
+  "north_note": "5 records parsed",
   "limit_up_count": null,
   "limit_down_count": null,
-  "fetched_at": "2026-06-03T12:44:22.333665"
+  "fetched_at": "2026-06-04T01:53:31.715175"
 }

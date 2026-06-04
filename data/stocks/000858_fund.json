@@ -1,8 +1,9 @@
 {
   "ticker": "000858.SZ",
   "code": "000858",
-  "name": "",
+  "name": "五粮液",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:14.459927",
+  "fetched_at": "2026-06-04T01:53:22.608511",
+  "industry": "",
   "fundamentals_ok": true
 }

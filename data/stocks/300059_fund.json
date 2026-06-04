@@ -1,8 +1,9 @@
 {
   "ticker": "300059.SZ",
   "code": "300059",
-  "name": "",
+  "name": "东方财富",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:44:20.383187",
+  "fetched_at": "2026-06-04T01:53:29.452722",
+  "industry": "",
   "fundamentals_ok": true
 }

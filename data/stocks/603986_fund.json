@@ -1,8 +1,9 @@
 {
   "ticker": "603986.SS",
   "code": "603986",
-  "name": "",
+  "name": "兆易创新",
   "is_st": false,
-  "fetched_at": "2026-06-03T12:43:58.176106",
+  "fetched_at": "2026-06-04T01:53:04.405670",
+  "industry": "",
   "fundamentals_ok": true
 }
