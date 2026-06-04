@@ -62,13 +62,15 @@ def parse_north_flow():
     if not north:
         return None, 'no data'
 
+    # 列名优先级：当日成交净买额 > 净买入 > 净流入
+    target_keys = ('当日成交净买额', '净买入', '净流入', 'net')
     total_flow = 0.0
     count = 0
     for record in north:
-        for k, v in record.items():
-            if any(x in str(k) for x in ('净买入', '净流入', 'net', '资金')):
+        for key in target_keys:
+            if key in record:
                 try:
-                    val = float(str(v).replace(',', '').replace('亿', ''))
+                    val = float(str(record[key]).replace(',', '').replace('亿', ''))
                     total_flow += val
                     count += 1
                     break

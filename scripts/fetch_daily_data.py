@@ -92,7 +92,7 @@ def fetch_north_flow():
     results = {'fetched_at': datetime.now().isoformat()}
     for label, symbol in [('north', '北向资金'), ('sh', '沪股通'), ('sz', '深股通')]:
         try:
-            df = ak.stock_hsgt_north_net_flow_in_em(symbol=symbol)
+            df = with_retry(ak.stock_hsgt_hist_em, symbol=symbol)
             if df is not None and not df.empty:
                 tail = df.tail(5)
                 records = []
