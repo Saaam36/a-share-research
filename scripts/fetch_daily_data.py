@@ -88,7 +88,7 @@ def fetch_csi300(days=400):
         rs = bs.query_history_k_data_plus(
             'sh.000300', fields,
             start_date=start, end_date=end,
-            frequency='d', adjustflag='2'
+            frequency='d', adjustflag='3'   # 3 = 不复权，指数用原始点位
         )
         if rs.error_code != '0':
             print(f'  [WARN] CSI300: {rs.error_msg}')
