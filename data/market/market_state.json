@@ -11,10 +11,10 @@
     "c2_ma50_above_ma200": true,
     "c3_ma200_up": true
   },
-  "north_flow_5d_bn": NaN,
-  "north_flow_signal": "strong_outflow",
-  "north_note": "5 records parsed",
+  "north_flow_5d_bn": null,
+  "north_flow_signal": null,
+  "north_note": "no valid data (East Money returns NaN for overseas IPs)",
   "limit_up_count": null,
   "limit_down_count": null,
-  "fetched_at": "2026-06-04T01:53:31.715175"
+  "fetched_at": "2026-06-04T03:57:33.719269"
 }
