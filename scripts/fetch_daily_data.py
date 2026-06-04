@@ -57,7 +57,7 @@ def fetch_price(ticker, days=400):
         rs = bs.query_history_k_data_plus(
             bs_code(ticker), fields,
             start_date=start, end_date=end,
-            frequency='d', adjustflag='2'   # 2 = qfq 前复权
+            frequency='d', adjustflag='3'   # 3 = 不复权，与交易软件显示价格一致
         )
         if rs.error_code != '0':
             print(f'  [WARN] price {ticker}: {rs.error_msg}')
