@@ -1,13 +1,13 @@
 {
   "ticker": "688008.SS",
   "code": "688008",
-  "close": 224.31,
+  "close": 236.4,
   "high_52w": 284.08,
   "low_52w": 75.84,
-  "pct_from_52w_high": -21.0,
-  "pct_from_52w_low": 195.8,
+  "pct_from_52w_high": -16.8,
+  "pct_from_52w_low": 211.7,
   "pivot_high_60d": 288.79,
-  "pct_from_pivot": -22.3,
+  "pct_from_pivot": -18.1,
   "stage2_confirmed": true,
   "minervini_score": 7,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": true
   },
-  "rs_3m": 45.54,
-  "fetched_at": "2026-06-08T12:23:28.305432",
-  "vol_ratio_5d_vs_50d": 1.12,
-  "vol_quality_up_vs_dn": 1.06
+  "rs_3m": 52.89,
+  "fetched_at": "2026-06-09T10:54:58.495627",
+  "vol_ratio_5d_vs_50d": 1.07,
+  "vol_quality_up_vs_dn": 1.0
 }
