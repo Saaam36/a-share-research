@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "market_status": "NEW_ENTRY_ALLOWED",
   "total_screened": 25,
   "candidates": [
@@ -1004,5 +1004,5 @@
       "entry_signal": "⛔ 规则未通过"
     }
   ],
-  "generated_at": "2026-06-18T11:44:14.187571"
+  "generated_at": "2026-06-19T11:56:41.010945"
 }
