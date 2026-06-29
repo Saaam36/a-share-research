@@ -1,12 +1,12 @@
 {
   "ticker": "002371.SZ",
   "code": "002371",
-  "close": 813.37,
-  "high_52w": 813.37,
+  "close": 860.19,
+  "high_52w": 860.19,
   "low_52w": 318.6,
   "pct_from_52w_high": 0.0,
-  "pct_from_52w_low": 155.3,
-  "pivot_high_60d": 828.0,
+  "pct_from_52w_low": 170.0,
+  "pivot_high_60d": 875.86,
   "pct_from_pivot": -1.8,
   "stage2_confirmed": true,
   "minervini_score": 7,
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": true
   },
-  "rs_3m": 74.4,
-  "fetched_at": "2026-06-26T10:45:29.361282",
-  "vol_ratio_5d_vs_50d": 0.88,
+  "rs_3m": 76.72,
+  "fetched_at": "2026-06-29T12:25:29.622763",
+  "vol_ratio_5d_vs_50d": 0.94,
   "vol_quality_up_vs_dn": 1.38
 }
