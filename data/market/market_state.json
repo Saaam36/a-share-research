@@ -1,12 +1,12 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "market_status": "NEW_ENTRY_ALLOWED",
   "csi300_stage2": true,
   "csi300_detail": {
-    "price": 4979.43,
-    "ma50": 4862.26,
-    "ma200": 4674.23,
-    "ma200_slope": 3.3592,
+    "price": 4958.98,
+    "ma50": 4866.7,
+    "ma200": 4676.71,
+    "ma200_slope": 3.2962,
     "c1_price_above_mas": true,
     "c2_ma50_above_ma200": true,
     "c3_ma200_up": true
@@ -16,5 +16,5 @@
   "north_note": "no valid data (East Money returns NaN for overseas IPs)",
   "limit_up_count": null,
   "limit_down_count": null,
-  "fetched_at": "2026-06-30T10:52:19.940337"
+  "fetched_at": "2026-07-01T11:03:59.381086"
 }

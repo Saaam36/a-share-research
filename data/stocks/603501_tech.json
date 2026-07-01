@@ -1,26 +1,26 @@
 {
   "ticker": "603501.SS",
   "code": "603501",
-  "close": 94.85,
+  "close": 97.11,
   "high_52w": 151.17,
   "low_52w": 85.17,
-  "pct_from_52w_high": -37.3,
-  "pct_from_52w_low": 11.4,
+  "pct_from_52w_high": -35.8,
+  "pct_from_52w_low": 14.0,
   "pivot_high_60d": 109.09,
-  "pct_from_pivot": -13.1,
+  "pct_from_pivot": -11.0,
   "stage2_confirmed": false,
-  "minervini_score": 0,
+  "minervini_score": 1,
   "minervini_criteria": {
     "c1_price_above_ma150_ma200": false,
     "c2_ma150_above_ma200": false,
     "c3_ma200_trending_up": false,
     "c4_ma50_above_ma150_ma200": false,
-    "c5_price_above_ma50": false,
+    "c5_price_above_ma50": true,
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -16.36,
-  "fetched_at": "2026-06-30T10:52:19.491622",
-  "vol_ratio_5d_vs_50d": 0.91,
-  "vol_quality_up_vs_dn": 1.35
+  "rs_3m": -14.01,
+  "fetched_at": "2026-07-01T11:03:58.935466",
+  "vol_ratio_5d_vs_50d": 1.0,
+  "vol_quality_up_vs_dn": 1.39
 }
