@@ -1,13 +1,13 @@
 {
   "ticker": "601888.SS",
   "code": "601888",
-  "close": 55.0,
+  "close": 53.69,
   "high_52w": 97.1,
   "low_52w": 53.32,
-  "pct_from_52w_high": -43.4,
-  "pct_from_52w_low": 3.2,
-  "pivot_high_60d": 71.34,
-  "pct_from_pivot": -22.9,
+  "pct_from_52w_high": -44.7,
+  "pct_from_52w_low": 0.7,
+  "pivot_high_60d": 70.33,
+  "pct_from_pivot": -23.7,
   "stage2_confirmed": false,
   "minervini_score": 1,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -33.37,
-  "fetched_at": "2026-07-01T11:03:59.027860",
-  "vol_ratio_5d_vs_50d": 1.03,
-  "vol_quality_up_vs_dn": 1.1
+  "rs_3m": -31.36,
+  "fetched_at": "2026-07-02T10:26:52.365506",
+  "vol_ratio_5d_vs_50d": 1.01,
+  "vol_quality_up_vs_dn": 1.19
 }
