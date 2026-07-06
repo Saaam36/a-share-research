@@ -1,13 +1,13 @@
 {
   "ticker": "300274.SZ",
   "code": "300274",
-  "close": 126.16,
+  "close": 128.18,
   "high_52w": 205.4,
-  "low_52w": 62.62,
-  "pct_from_52w_high": -38.6,
-  "pct_from_52w_low": 101.5,
+  "low_52w": 63.95,
+  "pct_from_52w_high": -37.6,
+  "pct_from_52w_low": 100.4,
   "pivot_high_60d": 191.71,
-  "pct_from_pivot": -34.2,
+  "pct_from_pivot": -33.1,
   "stage2_confirmed": false,
   "minervini_score": 2,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -25.13,
-  "fetched_at": "2026-07-03T10:22:15.217717",
-  "vol_ratio_5d_vs_50d": 1.18,
-  "vol_quality_up_vs_dn": 0.95
+  "rs_3m": -11.64,
+  "fetched_at": "2026-07-06T11:59:00.844435",
+  "vol_ratio_5d_vs_50d": 1.09,
+  "vol_quality_up_vs_dn": 0.77
 }
