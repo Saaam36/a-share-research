@@ -1,13 +1,13 @@
 {
   "ticker": "002230.SZ",
   "code": "002230",
-  "close": 39.95,
+  "close": 42.37,
   "high_52w": 63.7,
   "low_52w": 39.12,
-  "pct_from_52w_high": -37.3,
-  "pct_from_52w_low": 2.1,
+  "pct_from_52w_high": -33.5,
+  "pct_from_52w_low": 8.3,
   "pivot_high_60d": 50.99,
-  "pct_from_pivot": -21.7,
+  "pct_from_pivot": -16.9,
   "stage2_confirmed": false,
   "minervini_score": 0,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -19.92,
-  "fetched_at": "2026-07-07T10:46:21.883534",
-  "vol_ratio_5d_vs_50d": 0.81,
-  "vol_quality_up_vs_dn": 1.1
+  "rs_3m": -16.85,
+  "fetched_at": "2026-07-09T10:45:46.399896",
+  "vol_ratio_5d_vs_50d": 0.84,
+  "vol_quality_up_vs_dn": 1.19
 }

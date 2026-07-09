@@ -1,13 +1,13 @@
 {
   "ticker": "688981.SS",
   "code": "688981",
-  "close": 145.42,
-  "high_52w": 158.82,
-  "low_52w": 85.15,
-  "pct_from_52w_high": -8.4,
-  "pct_from_52w_low": 70.8,
-  "pivot_high_60d": 166.88,
-  "pct_from_pivot": -12.9,
+  "close": 173.0,
+  "high_52w": 173.0,
+  "low_52w": 85.48,
+  "pct_from_52w_high": 0.0,
+  "pct_from_52w_low": 102.4,
+  "pivot_high_60d": 174.51,
+  "pct_from_pivot": -0.9,
   "stage2_confirmed": false,
   "minervini_score": 6,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": true
   },
-  "rs_3m": 49.03,
-  "fetched_at": "2026-07-07T10:46:21.856158",
-  "vol_ratio_5d_vs_50d": 0.86,
-  "vol_quality_up_vs_dn": 1.06
+  "rs_3m": 71.11,
+  "fetched_at": "2026-07-09T10:45:46.380144",
+  "vol_ratio_5d_vs_50d": 0.91,
+  "vol_quality_up_vs_dn": 1.04
 }
