@@ -1,26 +1,26 @@
 {
   "ticker": "300347.SZ",
   "code": "300347",
-  "close": 43.57,
+  "close": 47.27,
   "high_52w": 69.86,
   "low_52w": 36.17,
-  "pct_from_52w_high": -37.6,
-  "pct_from_52w_low": 20.5,
+  "pct_from_52w_high": -32.3,
+  "pct_from_52w_low": 30.7,
   "pivot_high_60d": 60.91,
-  "pct_from_pivot": -28.5,
+  "pct_from_pivot": -22.4,
   "stage2_confirmed": false,
-  "minervini_score": 0,
+  "minervini_score": 2,
   "minervini_criteria": {
     "c1_price_above_ma150_ma200": false,
     "c2_ma150_above_ma200": false,
     "c3_ma200_trending_up": false,
     "c4_ma50_above_ma150_ma200": false,
-    "c5_price_above_ma50": false,
-    "c6_price_30pct_above_52w_low": false,
+    "c5_price_above_ma50": true,
+    "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -31.21,
-  "fetched_at": "2026-07-09T10:45:46.418212",
-  "vol_ratio_5d_vs_50d": 1.06,
-  "vol_quality_up_vs_dn": 1.09
+  "rs_3m": -19.68,
+  "fetched_at": "2026-07-10T10:42:46.536767",
+  "vol_ratio_5d_vs_50d": 1.17,
+  "vol_quality_up_vs_dn": 1.14
 }
