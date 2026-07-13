@@ -1,13 +1,13 @@
 {
   "ticker": "000568.SZ",
   "code": "000568",
-  "close": 78.18,
+  "close": 76.75,
   "high_52w": 143.32,
   "low_52w": 74.91,
-  "pct_from_52w_high": -45.5,
-  "pct_from_52w_low": 4.4,
+  "pct_from_52w_high": -46.4,
+  "pct_from_52w_low": 2.5,
   "pivot_high_60d": 103.81,
-  "pct_from_pivot": -24.7,
+  "pct_from_pivot": -26.1,
   "stage2_confirmed": false,
   "minervini_score": 0,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -29.59,
-  "fetched_at": "2026-07-10T10:42:46.568329",
-  "vol_ratio_5d_vs_50d": 1.0,
-  "vol_quality_up_vs_dn": 1.4
+  "rs_3m": -28.17,
+  "fetched_at": "2026-07-13T10:47:05.415608",
+  "vol_ratio_5d_vs_50d": 0.96,
+  "vol_quality_up_vs_dn": 1.29
 }
