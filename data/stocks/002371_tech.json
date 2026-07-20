@@ -1,7 +1,7 @@
 {
   "ticker": "002371.SZ",
   "code": "002371",
-  "close": 677.0,
+  "close": 676.91,
   "high_52w": 935.36,
   "low_52w": 318.6,
   "pct_from_52w_high": -27.6,
@@ -20,7 +20,7 @@
     "c7_price_within_25pct_52w_high": false
   },
   "rs_3m": 45.86,
-  "fetched_at": "2026-07-17T09:37:11.217058",
+  "fetched_at": "2026-07-20T10:34:20.303117",
   "vol_ratio_5d_vs_50d": 1.09,
-  "vol_quality_up_vs_dn": 0.99
+  "vol_quality_up_vs_dn": 0.97
 }
