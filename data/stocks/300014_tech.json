@@ -1,13 +1,13 @@
 {
   "ticker": "300014.SZ",
   "code": "300014",
-  "close": 54.21,
+  "close": 53.0,
   "high_52w": 91.0,
   "low_52w": 43.88,
-  "pct_from_52w_high": -40.4,
-  "pct_from_52w_low": 23.5,
+  "pct_from_52w_high": -41.8,
+  "pct_from_52w_low": 20.8,
   "pivot_high_60d": 76.18,
-  "pct_from_pivot": -28.8,
+  "pct_from_pivot": -30.4,
   "stage2_confirmed": false,
   "minervini_score": 0,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -22.61,
-  "fetched_at": "2026-07-21T10:10:42.780653",
-  "vol_ratio_5d_vs_50d": 0.76,
+  "rs_3m": -22.3,
+  "fetched_at": "2026-07-22T10:07:36.691839",
+  "vol_ratio_5d_vs_50d": 0.79,
   "vol_quality_up_vs_dn": 1.1
 }
