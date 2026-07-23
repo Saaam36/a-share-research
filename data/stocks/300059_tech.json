@@ -1,13 +1,13 @@
 {
   "ticker": "300059.SZ",
   "code": "300059",
-  "close": 20.08,
+  "close": 20.28,
   "high_52w": 28.91,
   "low_52w": 17.36,
-  "pct_from_52w_high": -30.5,
-  "pct_from_52w_low": 15.7,
+  "pct_from_52w_high": -29.9,
+  "pct_from_52w_low": 16.8,
   "pivot_high_60d": 21.96,
-  "pct_from_pivot": -8.6,
+  "pct_from_pivot": -7.7,
   "stage2_confirmed": false,
   "minervini_score": 1,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": 0.5,
-  "fetched_at": "2026-07-22T10:07:36.722666",
-  "vol_ratio_5d_vs_50d": 0.84,
-  "vol_quality_up_vs_dn": 1.18
+  "rs_3m": 2.54,
+  "fetched_at": "2026-07-23T10:07:26.157860",
+  "vol_ratio_5d_vs_50d": 0.85,
+  "vol_quality_up_vs_dn": 1.13
 }
