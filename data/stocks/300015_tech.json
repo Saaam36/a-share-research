@@ -6,8 +6,8 @@
   "low_52w": 8.0,
   "pct_from_52w_high": -37.7,
   "pct_from_52w_low": 7.7,
-  "pivot_high_60d": 11.07,
-  "pct_from_pivot": -22.1,
+  "pivot_high_60d": 11.03,
+  "pct_from_pivot": -21.8,
   "stage2_confirmed": false,
   "minervini_score": 0,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -15.44,
-  "fetched_at": "2026-07-27T11:02:19.971220",
-  "vol_ratio_5d_vs_50d": 0.91,
-  "vol_quality_up_vs_dn": 1.22
+  "rs_3m": -17.37,
+  "fetched_at": "2026-07-28T10:16:28.837696",
+  "vol_ratio_5d_vs_50d": 0.82,
+  "vol_quality_up_vs_dn": 1.3
 }
