@@ -1,15 +1,15 @@
 {
   "ticker": "002821.SZ",
   "code": "002821",
-  "close": 145.95,
+  "close": 152.65,
   "high_52w": 195.75,
   "low_52w": 89.5,
-  "pct_from_52w_high": -25.4,
-  "pct_from_52w_low": 63.1,
+  "pct_from_52w_high": -22.0,
+  "pct_from_52w_low": 70.6,
   "pivot_high_60d": 200.0,
-  "pct_from_pivot": -27.0,
+  "pct_from_pivot": -23.7,
   "stage2_confirmed": true,
-  "minervini_score": 6,
+  "minervini_score": 7,
   "minervini_criteria": {
     "c1_price_above_ma150_ma200": true,
     "c2_ma150_above_ma200": true,
@@ -17,10 +17,10 @@
     "c4_ma50_above_ma150_ma200": true,
     "c5_price_above_ma50": true,
     "c6_price_30pct_above_52w_low": true,
-    "c7_price_within_25pct_52w_high": false
+    "c7_price_within_25pct_52w_high": true
   },
-  "rs_3m": 17.09,
-  "fetched_at": "2026-07-30T10:07:09.771136",
-  "vol_ratio_5d_vs_50d": 0.83,
-  "vol_quality_up_vs_dn": 1.27
+  "rs_3m": 25.0,
+  "fetched_at": "2026-07-31T10:14:10.061081",
+  "vol_ratio_5d_vs_50d": 0.84,
+  "vol_quality_up_vs_dn": 1.23
 }
