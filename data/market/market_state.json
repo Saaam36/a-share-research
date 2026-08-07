@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "market_status": "CASH_PRIORITY",
   "csi300_stage2": false,
   "csi300_detail": {
@@ -16,5 +16,5 @@
   "north_note": "no valid data (East Money returns NaN for overseas IPs)",
   "limit_up_count": null,
   "limit_down_count": null,
-  "fetched_at": "2026-08-06T10:17:19.363300"
+  "fetched_at": "2026-08-07T08:42:07.314485"
 }
