@@ -1,26 +1,26 @@
 {
   "ticker": "002594.SZ",
   "code": "002594",
-  "close": 89.45,
-  "high_52w": 342.72,
+  "close": 90.04,
+  "high_52w": 337.93,
   "low_52w": 78.2,
-  "pct_from_52w_high": -73.9,
-  "pct_from_52w_low": 14.4,
-  "pivot_high_60d": 100.0,
-  "pct_from_pivot": -10.5,
+  "pct_from_52w_high": -73.4,
+  "pct_from_52w_low": 15.1,
+  "pivot_high_60d": 99.5,
+  "pct_from_pivot": -9.5,
   "stage2_confirmed": false,
-  "minervini_score": 0,
+  "minervini_score": 1,
   "minervini_criteria": {
     "c1_price_above_ma150_ma200": false,
     "c2_ma150_above_ma200": false,
     "c3_ma200_trending_up": false,
     "c4_ma50_above_ma150_ma200": false,
-    "c5_price_above_ma50": false,
+    "c5_price_above_ma50": true,
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -6.04,
-  "fetched_at": "2026-08-07T08:42:06.913272",
-  "vol_ratio_5d_vs_50d": 1.01,
-  "vol_quality_up_vs_dn": 0.94
+  "rs_3m": -5.16,
+  "fetched_at": "2026-08-10T09:05:23.731036",
+  "vol_ratio_5d_vs_50d": 0.99,
+  "vol_quality_up_vs_dn": 0.86
 }

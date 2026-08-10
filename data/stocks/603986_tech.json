@@ -1,13 +1,13 @@
 {
   "ticker": "603986.SS",
   "code": "603986",
-  "close": 385.0,
+  "close": 417.05,
   "high_52w": 840.0,
   "low_52w": 116.4,
-  "pct_from_52w_high": -54.2,
-  "pct_from_52w_low": 230.8,
+  "pct_from_52w_high": -50.4,
+  "pct_from_52w_low": 258.3,
   "pivot_high_60d": 846.66,
-  "pct_from_pivot": -54.5,
+  "pct_from_pivot": -50.7,
   "stage2_confirmed": true,
   "minervini_score": 5,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": 19.76,
-  "fetched_at": "2026-08-07T08:42:06.873193",
-  "vol_ratio_5d_vs_50d": 1.19,
-  "vol_quality_up_vs_dn": 1.13
+  "rs_3m": 20.36,
+  "fetched_at": "2026-08-10T09:05:23.687170",
+  "vol_ratio_5d_vs_50d": 1.15,
+  "vol_quality_up_vs_dn": 1.2
 }

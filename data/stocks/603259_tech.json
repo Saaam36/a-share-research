@@ -1,13 +1,13 @@
 {
   "ticker": "603259.SS",
   "code": "603259",
-  "close": 142.7,
-  "high_52w": 147.5,
-  "low_52w": 87.0,
-  "pct_from_52w_high": -3.3,
-  "pct_from_52w_low": 64.0,
-  "pivot_high_60d": 150.0,
-  "pct_from_pivot": -4.9,
+  "close": 154.82,
+  "high_52w": 154.82,
+  "low_52w": 87.62,
+  "pct_from_52w_high": 0.0,
+  "pct_from_52w_low": 76.7,
+  "pivot_high_60d": 155.48,
+  "pct_from_pivot": -0.4,
   "stage2_confirmed": true,
   "minervini_score": 7,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": true
   },
-  "rs_3m": 38.14,
-  "fetched_at": "2026-08-07T08:42:06.893663",
-  "vol_ratio_5d_vs_50d": 1.28,
+  "rs_3m": 47.6,
+  "fetched_at": "2026-08-10T09:05:23.709303",
+  "vol_ratio_5d_vs_50d": 1.37,
   "vol_quality_up_vs_dn": 1.5
 }
