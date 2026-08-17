@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -3.82,
-  "fetched_at": "2026-08-14T08:53:20.765151",
-  "vol_ratio_5d_vs_50d": 0.75,
-  "vol_quality_up_vs_dn": 1.43
+  "rs_3m": -8.0,
+  "fetched_at": "2026-08-17T08:14:51.265749",
+  "vol_ratio_5d_vs_50d": 0.7,
+  "vol_quality_up_vs_dn": 1.31
 }
