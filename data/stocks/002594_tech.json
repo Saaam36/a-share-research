@@ -1,26 +1,26 @@
 {
   "ticker": "002594.SZ",
   "code": "002594",
-  "close": 89.53,
+  "close": 88.66,
   "high_52w": 114.06,
   "low_52w": 78.2,
-  "pct_from_52w_high": -21.5,
-  "pct_from_52w_low": 14.5,
+  "pct_from_52w_high": -22.3,
+  "pct_from_52w_low": 13.4,
   "pivot_high_60d": 99.5,
-  "pct_from_pivot": -10.0,
+  "pct_from_pivot": -10.9,
   "stage2_confirmed": false,
-  "minervini_score": 2,
+  "minervini_score": 1,
   "minervini_criteria": {
     "c1_price_above_ma150_ma200": false,
     "c2_ma150_above_ma200": false,
     "c3_ma200_trending_up": false,
     "c4_ma50_above_ma150_ma200": false,
-    "c5_price_above_ma50": true,
+    "c5_price_above_ma50": false,
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": true
   },
-  "rs_3m": -1.53,
-  "fetched_at": "2026-08-19T08:11:55.210145",
-  "vol_ratio_5d_vs_50d": 0.49,
-  "vol_quality_up_vs_dn": 1.06
+  "rs_3m": -1.12,
+  "fetched_at": "2026-08-20T08:13:29.386008",
+  "vol_ratio_5d_vs_50d": 0.5,
+  "vol_quality_up_vs_dn": 1.27
 }
