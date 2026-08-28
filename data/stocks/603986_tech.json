@@ -1,17 +1,17 @@
 {
   "ticker": "603986.SS",
   "code": "603986",
-  "close": 411.2,
+  "close": 396.82,
   "high_52w": 840.0,
-  "low_52w": 121.01,
-  "pct_from_52w_high": -51.0,
-  "pct_from_52w_low": 239.8,
+  "low_52w": 122.9,
+  "pct_from_52w_high": -52.8,
+  "pct_from_52w_low": 222.9,
   "pivot_high_60d": 846.66,
-  "pct_from_pivot": -51.4,
-  "stage2_confirmed": true,
-  "minervini_score": 5,
+  "pct_from_pivot": -53.1,
+  "stage2_confirmed": false,
+  "minervini_score": 4,
   "minervini_criteria": {
-    "c1_price_above_ma150_ma200": true,
+    "c1_price_above_ma150_ma200": false,
     "c2_ma150_above_ma200": true,
     "c3_ma200_trending_up": true,
     "c4_ma50_above_ma150_ma200": true,
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -6.6,
-  "fetched_at": "2026-08-27T18:30:15.454649",
-  "vol_ratio_5d_vs_50d": 0.64,
-  "vol_quality_up_vs_dn": 0.93
+  "rs_3m": -10.36,
+  "fetched_at": "2026-08-28T19:39:54.764635",
+  "vol_ratio_5d_vs_50d": 0.65,
+  "vol_quality_up_vs_dn": 0.96
 }
