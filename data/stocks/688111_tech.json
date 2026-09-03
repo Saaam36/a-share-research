@@ -1,13 +1,13 @@
 {
   "ticker": "688111.SS",
   "code": "688111",
-  "close": 238.4,
+  "close": 239.05,
   "high_52w": 379.99,
   "low_52w": 200.03,
-  "pct_from_52w_high": -37.3,
-  "pct_from_52w_low": 19.2,
+  "pct_from_52w_high": -37.1,
+  "pct_from_52w_low": 19.5,
   "pivot_high_60d": 289.3,
-  "pct_from_pivot": -17.6,
+  "pct_from_pivot": -17.4,
   "stage2_confirmed": false,
   "minervini_score": 0,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": 7.59,
-  "fetched_at": "2026-09-02T12:22:17.688477",
-  "vol_ratio_5d_vs_50d": 0.64,
+  "rs_3m": 7.54,
+  "fetched_at": "2026-09-03T12:20:27.313370",
+  "vol_ratio_5d_vs_50d": 0.61,
   "vol_quality_up_vs_dn": 1.23
 }
