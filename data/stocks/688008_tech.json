@@ -1,7 +1,7 @@
 {
   "ticker": "688008.SS",
   "code": "688008",
-  "close": 195.3,
+  "close": 195.33,
   "high_52w": 315.89,
   "low_52w": 102.85,
   "pct_from_52w_high": -38.2,
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -11.43,
-  "fetched_at": "2026-09-09T12:34:58.904916",
-  "vol_ratio_5d_vs_50d": 0.53,
-  "vol_quality_up_vs_dn": 1.78
+  "rs_3m": -8.35,
+  "fetched_at": "2026-09-10T12:27:24.195061",
+  "vol_ratio_5d_vs_50d": 0.52,
+  "vol_quality_up_vs_dn": 0.96
 }
