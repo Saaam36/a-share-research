@@ -1,11 +1,11 @@
 {
   "ticker": "300496.SZ",
   "code": "300496",
-  "close": 53.21,
+  "close": 53.24,
   "high_52w": 85.01,
   "low_52w": 53.21,
   "pct_from_52w_high": -37.4,
-  "pct_from_52w_low": 0.0,
+  "pct_from_52w_low": 0.1,
   "pivot_high_60d": 64.75,
   "pct_from_pivot": -17.8,
   "stage2_confirmed": false,
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -1.06,
-  "fetched_at": "2026-09-28T15:55:42.658872",
-  "vol_ratio_5d_vs_50d": 0.6,
-  "vol_quality_up_vs_dn": 1.23
+  "rs_3m": -2.4,
+  "fetched_at": "2026-09-29T14:23:11.908033",
+  "vol_ratio_5d_vs_50d": 0.56,
+  "vol_quality_up_vs_dn": 1.13
 }
