@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-05",
   "market_status": "CASH_PRIORITY",
   "total_screened": 25,
   "candidates": [
@@ -1004,5 +1004,5 @@
       "entry_signal": "⛔ 规则未通过"
     }
   ],
-  "generated_at": "2026-10-02T14:09:41.864536"
+  "generated_at": "2026-10-05T16:26:14.908097"
 }
