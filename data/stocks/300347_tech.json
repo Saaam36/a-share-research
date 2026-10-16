@@ -1,13 +1,13 @@
 {
   "ticker": "300347.SZ",
   "code": "300347",
-  "close": 52.06,
+  "close": 50.07,
   "high_52w": 66.6,
   "low_52w": 36.17,
-  "pct_from_52w_high": -21.8,
-  "pct_from_52w_low": 43.9,
+  "pct_from_52w_high": -24.8,
+  "pct_from_52w_low": 38.4,
   "pivot_high_60d": 59.88,
-  "pct_from_pivot": -13.1,
+  "pct_from_pivot": -16.4,
   "stage2_confirmed": false,
   "minervini_score": 4,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": true,
     "c7_price_within_25pct_52w_high": true
   },
-  "rs_3m": 22.99,
-  "fetched_at": "2026-10-15T12:55:55.016615",
-  "vol_ratio_5d_vs_50d": 0.56,
-  "vol_quality_up_vs_dn": 1.34
+  "rs_3m": 20.24,
+  "fetched_at": "2026-10-16T12:48:19.498085",
+  "vol_ratio_5d_vs_50d": 0.58,
+  "vol_quality_up_vs_dn": 1.26
 }
