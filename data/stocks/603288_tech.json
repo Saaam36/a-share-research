@@ -1,13 +1,13 @@
 {
   "ticker": "603288.SS",
   "code": "603288",
-  "close": 34.62,
+  "close": 34.21,
   "high_52w": 42.22,
   "low_52w": 32.44,
-  "pct_from_52w_high": -18.0,
-  "pct_from_52w_low": 6.7,
+  "pct_from_52w_high": -19.0,
+  "pct_from_52w_low": 5.5,
   "pivot_high_60d": 39.0,
-  "pct_from_pivot": -11.2,
+  "pct_from_pivot": -12.3,
   "stage2_confirmed": false,
   "minervini_score": 1,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": true
   },
-  "rs_3m": 11.82,
-  "fetched_at": "2026-10-16T12:48:19.518284",
-  "vol_ratio_5d_vs_50d": 0.93,
-  "vol_quality_up_vs_dn": 1.03
+  "rs_3m": 11.95,
+  "fetched_at": "2026-10-19T15:01:29.792516",
+  "vol_ratio_5d_vs_50d": 1.07,
+  "vol_quality_up_vs_dn": 0.97
 }
