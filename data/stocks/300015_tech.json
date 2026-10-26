@@ -1,26 +1,26 @@
 {
   "ticker": "300015.SZ",
   "code": "300015",
-  "close": 8.14,
+  "close": 8.42,
   "high_52w": 12.68,
   "low_52w": 7.77,
-  "pct_from_52w_high": -35.8,
-  "pct_from_52w_low": 4.8,
+  "pct_from_52w_high": -33.6,
+  "pct_from_52w_low": 8.4,
   "pivot_high_60d": 9.28,
-  "pct_from_pivot": -12.3,
+  "pct_from_pivot": -9.3,
   "stage2_confirmed": false,
-  "minervini_score": 0,
+  "minervini_score": 1,
   "minervini_criteria": {
     "c1_price_above_ma150_ma200": false,
     "c2_ma150_above_ma200": false,
     "c3_ma200_trending_up": false,
     "c4_ma50_above_ma150_ma200": false,
-    "c5_price_above_ma50": false,
+    "c5_price_above_ma50": true,
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": 1.87,
-  "fetched_at": "2026-10-23T12:55:30.699866",
-  "vol_ratio_5d_vs_50d": 1.2,
-  "vol_quality_up_vs_dn": 1.44
+  "rs_3m": 9.31,
+  "fetched_at": "2026-10-26T14:37:17.519110",
+  "vol_ratio_5d_vs_50d": 1.37,
+  "vol_quality_up_vs_dn": 1.56
 }
