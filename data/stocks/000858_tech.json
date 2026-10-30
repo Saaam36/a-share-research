@@ -1,13 +1,13 @@
 {
   "ticker": "000858.SZ",
   "code": "000858",
-  "close": 72.28,
-  "high_52w": 122.74,
+  "close": 74.7,
+  "high_52w": 121.33,
   "low_52w": 68.77,
-  "pct_from_52w_high": -41.1,
-  "pct_from_52w_low": 5.1,
-  "pivot_high_60d": 78.84,
-  "pct_from_pivot": -8.3,
+  "pct_from_52w_high": -38.4,
+  "pct_from_52w_low": 8.6,
+  "pivot_high_60d": 78.68,
+  "pct_from_pivot": -5.1,
   "stage2_confirmed": false,
   "minervini_score": 1,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": 11.31,
-  "fetched_at": "2026-10-29T14:43:20.738225",
-  "vol_ratio_5d_vs_50d": 1.85,
-  "vol_quality_up_vs_dn": 0.95
+  "rs_3m": 16.33,
+  "fetched_at": "2026-10-30T14:35:22.421396",
+  "vol_ratio_5d_vs_50d": 1.91,
+  "vol_quality_up_vs_dn": 1.11
 }
