@@ -1,13 +1,13 @@
 {
   "ticker": "300750.SZ",
   "code": "300750",
-  "close": 252.88,
+  "close": 264.06,
   "high_52w": 460.0,
   "low_52w": 220.41,
-  "pct_from_52w_high": -45.0,
-  "pct_from_52w_low": 14.7,
+  "pct_from_52w_high": -42.6,
+  "pct_from_52w_low": 19.8,
   "pivot_high_60d": 410.0,
-  "pct_from_pivot": -38.3,
+  "pct_from_pivot": -35.6,
   "stage2_confirmed": false,
   "minervini_score": 1,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": -27.22,
-  "fetched_at": "2026-11-04T15:48:50.419270",
-  "vol_ratio_5d_vs_50d": 1.24,
-  "vol_quality_up_vs_dn": 1.23
+  "rs_3m": -22.85,
+  "fetched_at": "2026-11-05T15:50:11.598443",
+  "vol_ratio_5d_vs_50d": 1.36,
+  "vol_quality_up_vs_dn": 1.64
 }
