@@ -1,13 +1,13 @@
 {
   "ticker": "002304.SZ",
   "code": "002304",
-  "close": 35.89,
+  "close": 35.88,
   "high_52w": 71.55,
-  "low_52w": 35.89,
-  "pct_from_52w_high": -49.8,
+  "low_52w": 35.88,
+  "pct_from_52w_high": -49.9,
   "pct_from_52w_low": 0.0,
-  "pivot_high_60d": 42.13,
-  "pct_from_pivot": -14.8,
+  "pivot_high_60d": 41.64,
+  "pct_from_pivot": -13.8,
   "stage2_confirmed": false,
   "minervini_score": 0,
   "minervini_criteria": {
@@ -19,8 +19,8 @@
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": 1.74,
-  "fetched_at": "2026-11-12T16:15:15.158723",
+  "rs_3m": 0.9,
+  "fetched_at": "2026-11-13T15:44:56.301849",
   "vol_ratio_5d_vs_50d": 1.23,
-  "vol_quality_up_vs_dn": 1.71
+  "vol_quality_up_vs_dn": 1.64
 }
