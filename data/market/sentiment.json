@@ -1,4 +1,4 @@
 {
-  "fetched_at": "2026-11-13T15:43:57.880740",
-  "error": "module 'akshare' has no attribute 'stock_limit_up_down_em'"
+  "fetched_at": "2026-11-16T17:26:36.751749",
+  "error": "module 'akshare' has no attribute 'stock_limit_up_down_em'。可用 ak.search(\"关键词\") 查找接口"
 }

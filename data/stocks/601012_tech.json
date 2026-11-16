@@ -1,26 +1,26 @@
 {
   "ticker": "601012.SS",
   "code": "601012",
-  "close": 11.7,
+  "close": 11.4,
   "high_52w": 22.8,
   "low_52w": 10.77,
-  "pct_from_52w_high": -48.7,
-  "pct_from_52w_low": 8.6,
+  "pct_from_52w_high": -50.0,
+  "pct_from_52w_low": 5.8,
   "pivot_high_60d": 12.94,
-  "pct_from_pivot": -9.6,
+  "pct_from_pivot": -11.9,
   "stage2_confirmed": false,
-  "minervini_score": 1,
+  "minervini_score": 0,
   "minervini_criteria": {
     "c1_price_above_ma150_ma200": false,
     "c2_ma150_above_ma200": false,
     "c3_ma200_trending_up": false,
     "c4_ma50_above_ma150_ma200": false,
-    "c5_price_above_ma50": true,
+    "c5_price_above_ma50": false,
     "c6_price_30pct_above_52w_low": false,
     "c7_price_within_25pct_52w_high": false
   },
-  "rs_3m": 5.0,
-  "fetched_at": "2026-11-13T15:44:56.288427",
-  "vol_ratio_5d_vs_50d": 1.07,
-  "vol_quality_up_vs_dn": 1.1
+  "rs_3m": 3.8,
+  "fetched_at": "2026-11-16T17:27:16.389671",
+  "vol_ratio_5d_vs_50d": 0.97,
+  "vol_quality_up_vs_dn": 1.17
 }
